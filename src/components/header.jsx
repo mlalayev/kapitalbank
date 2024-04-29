@@ -50,7 +50,7 @@ function header() {
                 <div className="headlowpart">
 
                     <ul className='mainul'>
-                        <li className='anim'>KARTLAR
+                        <li className='anim'><span className='animspan'>KARTLAR</span>
 
                             <div className="dropdownn">
 
@@ -82,7 +82,7 @@ function header() {
                                                 <p>2 qat ƏDV, şəxsi vəsaitdən pulsuz köçürmə, 30%-dək keşbek, taksit kartı kimi istifadədə isə əlavə olaraq 24 ayadək faizsiz taksit və 63 günədək güzəşt müddəti qazandıran unikal bir kartdır.</p>
                                             </div>
 
-                                            <button className='ddrplrtfirstbtn'></button>
+                                            <button className='ddrplrtfirstbtn'>Bir kliklə sifariş et</button>
                                         
                                         </div>
                                         <img src={fddimg} className='fddimg' />
@@ -153,6 +153,8 @@ function header() {
                 </div>
 
             </header>
+
+            <section className="first">a</section>
         </>
     )
 }

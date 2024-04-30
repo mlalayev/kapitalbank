@@ -1,0 +1,164 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* border: 1px solid black; */
+}
+
+:root {
+    --black: rgb(0, 0, 0);
+    --red: rgb(182, 29, 41);
+    --hover: rgb(239, 62, 66);
+    --pink: rgb(244, 83, 105);
+    --gray: rgb(232, 236, 241);
+    --white: rgb(255, 255, 255);
+    --black-second: rgb(46, 49, 49);
+    --light-gray: rgb(244, 244, 244);
+    --light-gray-second: rgb(249, 250, 251);
+}
+
+.first {
+    width: 100%;
+    height: 425px;
+    margin-top: 2px;
+    font-size: 20px;
+    padding: 75px 0 0 165px;
+    background-color: var(--gray);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.firstsclft {
+    width: 400px;
+    cursor: default;
+    line-height: 44px;
+    color: var(--black-second);
+}
+
+.firstscuppart:hover .sliderone {
+    transform: scale(1.05);
+}
+
+.firstscbtn {
+    width: 280px;
+    height: 55px;
+    border: none;
+    cursor: pointer;
+    font-size: 19px;
+    transition: 0.4s;
+    margin-top: 20px;
+    border-radius: 8px;
+    color: var(--white);
+    background-color: var(--pink);
+}
+
+.firstscbtn:hover {
+    background-color: var(--hover);
+}
+
+.firstscuppart {
+    display: flex;
+    justify-content: space-between;
+}
+
+.sliderone {
+    width: 289px;
+    height: 289px;
+    transition: 0.3s;
+    margin-top: -44px;
+    margin-right: 310px;
+}
+
+.firstsclwpart {
+    height: 228px;
+    width: 1186px;
+    display: flex;
+    padding: 0 20px;
+    margin-top: 25px;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: space-around;
+    background-color: var(--light-gray-second);
+    box-shadow: 1px 1px 5px 1px rgba(128, 128, 128, 0.105);
+}
+
+.firstsclwpart div {
+    width: 202px;
+    height: 164px;
+    border-radius: 8px;
+    background-color: var(--white);
+}
+
+.second {
+    width: 100%;
+    height: 500px;
+}
+
+.purseicon {
+    width: 60px;
+    height: 62px;
+    margin-top: -30px;
+}
+
+.firstsclwpart p {
+    font-size: 16px;
+}
+
+.firstsclwpart div {
+    gap: 12px;
+    display: flex;
+    transition: 0.5s;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    box-shadow: 1px 1px 5px 1px rgba(128, 128, 128, 0.481);
+}
+
+.birbankicontwo {
+    width: 40px;
+    height: 50px;
+    margin-top: -26px;
+}
+
+.divuno p {
+    margin-top: 5px;
+}
+
+.divdos p {
+    margin-top: 16px;
+}
+
+.transparent {
+    color: transparent;
+}
+
+.deposit {
+    width: 44px;
+    height: 44px;
+    margin-top: -22px;
+}
+
+.divtres p {
+    margin-top: 16px;
+}
+
+.firstsclwpart div:hover {
+    transform: scale(1.05);
+}
+
+.divcuatro p {
+    margin-top: 20px;
+}
+
+.marketicon {
+    margin-top: -26px;
+}
+
+.megafon{
+    width: 50px;
+    height: 50px;
+    margin-top: -30px;
+}
+
+.divcinco p{
+    margin-top: 18px;
+}

@@ -94,13 +94,27 @@ function home() {
                         </div>
 
                         <div className="scndseclwrrght">
-                        <img src={birbankcard} className='birbankcard'/>
+                            <img src={birbankcard} className='birbankcard' />
                         </div>
 
                     </div>
 
                 </section>
 
+                <section className="third">
+
+                    <div className="thrdscup">
+
+                        <p className='thrdscp'>Gündəlik<b> tələbat krediti</b></p>
+
+                        <p className='thrdsclp'>30000 AZN-dək, arzularınızı reallaşdırmaq və ya ehtiyaclarınızı ödəmək üçün nağd kredit təklif edirik.</p>
+                    </div>
+
+                    <div className="thrdsclwr">
+
+                    </div>
+
+                </section>
             </div>
 
         </>

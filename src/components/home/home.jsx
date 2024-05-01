@@ -6,6 +6,7 @@ import birbankicon from '../../assets/birbank-karti.svg'
 import deposit from '../../assets/deposit.svg'
 import marketicon from '../../assets/micro_business.svg'
 import megafon from '../../assets/megafon.svg'
+import birbankcard from '../../assets/birbank-cashback-home.png'
 
 
 function home() {
@@ -61,6 +62,42 @@ function home() {
                 </section>
 
                 <section className="second">
+
+                    <div className="scndsecup">
+
+                        <p className='upp'>Birbank <span className='transparent'>.</span><b>Cashback</b></p>
+
+                        <p className='lwp'> 2 qat ƏDV, şəxsi vəsaitdən pulsuz köçürmə, 30%-dək keşbek, taksit kartı kimi istifadədə isə əlavə olaraq 24 ayadək faizsiz taksit və 63 günədək güzəşt müddəti qazandıran unikal bir kartdır. </p>
+
+                    </div>
+
+                    <div className="scndseclwr">
+
+                        <div className="scndseclwrleft">
+                            <p className='pink'>30%-dək keşbek və 2 qat ƏDV</p>
+
+                            <p className='bonus'>Bonus</p>
+
+                            <button className='order'>Sifariş et</button>
+                        </div>
+
+                        <div className="scndseclwrmid">
+                            <div className="sslwrmdlft">
+                                <p className='pink'>pulsuz</p>
+                                <p className='bonus'>Kartın qiyməti</p>
+                            </div>
+
+                            <div className="sslwrmdrght">
+                                <p className='pink'> 63 günədək</p>
+                                <p className='bonus'>Güzəşt müddəti</p>
+                            </div>
+                        </div>
+
+                        <div className="scndseclwrrght">
+                        <img src={birbankcard} className='birbankcard'/>
+                        </div>
+
+                    </div>
 
                 </section>
 

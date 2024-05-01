@@ -116,7 +116,7 @@
 .birbankicontwo {
     width: 40px;
     height: 50px;
-    margin-top: -26px;
+    margin-top: -20px;
 }
 
 .divuno p {
@@ -141,8 +141,12 @@
     margin-top: 16px;
 }
 
-.firstsclwpart div:hover {
-    transform: scale(1.05);
+.firstsclwpart .divuno:hover,
+.divdos:hover,
+.divtres:hover,
+.divcuatro:hover,
+.divcinco:hover {
+    transform: scale(1.1);
 }
 
 .divcuatro p {
@@ -153,12 +157,20 @@
     margin-top: -26px;
 }
 
-.megafon{
+.megafon {
     width: 50px;
     height: 50px;
     margin-top: -30px;
 }
 
-.divcinco p{
+.divcinco p {
     margin-top: 18px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 1520px;
+    margin: auto;
 }

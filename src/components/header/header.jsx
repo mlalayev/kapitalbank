@@ -14,6 +14,7 @@ function header() {
     return (
         <>
             <header>
+                    <div className="container">
 
                 <div className="headuppart">
 
@@ -283,6 +284,8 @@ function header() {
                     </ul>
 
                     <button className='hdlwprtbtn'> <img src={birbankicon} className='birbankicon'/><span className='bbiconspan'>birbank</span></button>
+
+                </div>
 
                 </div>
 

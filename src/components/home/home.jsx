@@ -7,6 +7,8 @@ import deposit from '../../assets/deposit.svg'
 import marketicon from '../../assets/micro_business.svg'
 import megafon from '../../assets/megafon.svg'
 import birbankcard from '../../assets/birbank-cashback-home.png'
+import dailyloan from '../../assets/daily-loan3.png'
+
 
 
 function home() {
@@ -111,6 +113,25 @@ function home() {
                     </div>
 
                     <div className="thrdsclwr">
+
+                        <div className="thrdsclft">
+                            <img src={dailyloan} className='dailyloan' />
+                        </div>
+                        <div className="thrdscmd">
+
+                            <div className="thrdscmdlft">
+
+                                <p className='pink one'>50 000 AZN-dək</p>
+                                <p>Kredit məbləği</p>
+
+                            </div>
+
+                            <div className="thrdscmdrght">
+
+                            </div>
+
+                        </div>
+                        <div className="thrdscrght"></div>
 
                     </div>
 

@@ -117,25 +117,42 @@ function home() {
                         <div className="thrdsclft">
                             <img src={dailyloan} className='dailyloan' />
                         </div>
+
                         <div className="thrdscmd">
 
                             <div className="thrdscmdlft">
 
                                 <p className='pink one'>50 000 AZN-dək</p>
-                                <p>Kredit məbləği</p>
+                                <p className='lvpnk'>Kredit məbləği</p>
 
                             </div>
 
                             <div className="thrdscmdrght">
 
+                                <p className='pink two'>59 ayadək</p>
+                                <p className='lvpnk'>Kredit müddəti</p>
+
                             </div>
 
                         </div>
-                        <div className="thrdscrght"></div>
+
+                        <div className="thrdscrght">
+
+                            <div className="thrdscrghtup">
+                                <p className='pink three'>10.9%-dən</p>
+                                <p className='lvpnk'>İllik faiz dərəcəsi</p>
+                            </div>
+
+                            <div className="thrdscrghtlw">
+                                <button className='order talabat'>Sifariş et</button>
+                            </div>
+
+                        </div>
 
                     </div>
 
                 </section>
+
             </div>
 
         </>

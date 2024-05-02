@@ -230,58 +230,86 @@
     margin-bottom: 26px;
 }
 
-.scndseclwrmid{
+.scndseclwrmid {
     display: flex;
     margin-left: 67px;
 }
 
-.sslwrmdrght{
+.sslwrmdrght {
     margin-left: 88px;
 }
 
-.birbankcard{
+.birbankcard {
     width: 320px;
     height: 320px;
     margin-top: -182px;
     margin-left: -14px;
 }
 
-.thrdscp{
+.thrdscp {
     font-size: 34px;
     padding-top: 56px;
     padding-left: 570px;
 }
 
-.third{
+.third {
     height: 1000px;
 }
 
-.thrdsclp{
+.thrdsclp {
     margin-top: 18px;
     padding-left: 570px;
 }
 
-.thrdsclwr{
+.thrdsclwr {
     width: 100%;
     height: 257px;
     display: flex;
     background-color: var(--gray);
 }
 
-.thrdscup{
+.thrdscup {
     height: 170px;
 }
 
-.dailyloan{
+.dailyloan {
     margin-top: -141px;
     margin-left: 102px;
 }
 
-.thrdscmdlft{
+.thrdscmdlft {
     margin-top: 74px;
     margin-left: 20px;
 }
 
-.one{
-    margin-bottom: 9px;
+.lvpnk {
+    margin-top: 9px;
+    font-weight: 100;
+}
+
+.thrdscmd {
+    display: flex;
+}
+
+.thrdscmdrght {
+    margin-top: 74px;
+    margin-left: 165px;
+}
+
+.thrdscrght {
+    gap: 22px;
+    display: flex;
+    margin-top: 74px;
+    margin-left: 20px;
+    align-items: flex-end;
+    flex-direction: column;
+}
+
+.talabat{
+    transition: 0.5s;
+    color: var(--white);
+}
+
+.talabat:hover{
+    background-color: var(--hover);
 }

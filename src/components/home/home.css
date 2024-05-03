@@ -321,15 +321,15 @@
     display: flex;
 }
 
-.inputgroup div{
+.inputgroup div {
     width: 680px;
     height: 64px;
     position: relative;
     border-radius: 8px;
-    border: 1px solid rgba(0, 0, 0, 0.17);   
+    border: 1px solid rgba(0, 0, 0, 0.17);
 }
 
-.inputgroup{
+.inputgroup {
     gap: 60px;
     display: flex;
     flex-direction: column;
@@ -411,16 +411,44 @@ input[type="range"] {
     margin-bottom: 15px;
 }
 
-.frthscpthree{
+.frthscpthree {
     font-weight: 100;
     margin-bottom: 40px;
 }
 
-.frthscrght{
+.frthscrght {
     width: 381px;
     height: 331px;
     margin-top: 157px;
     margin-left: 125px;
     border: 1px solid rgba(0, 0, 0, 0.17);
     border-radius: 8px;
+}
+
+.frthscrghth {
+    font-size: 50px;
+    margin-top: -10px;
+}
+
+.frthscrghtp {
+    font-size: 24px;
+    margin-top: 40px;
+}
+
+.frthscrghtpd{
+    font-size: 24px;
+    margin-top: 10px;
+}
+
+.frthscrght {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.frthscrght button{
+    margin-bottom: 20px;
+    width: 340px;
 }

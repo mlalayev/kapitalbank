@@ -184,14 +184,14 @@ function home() {
 
                             <div className="secondinputgrpfrthsc">
 
-                            <input type="range" name="firstinputgrp" className='slider' id="firstinputgrp" />
+                                <input type="range" name="firstinputgrp" className='slider' id="firstinputgrp" />
 
                             </div>
 
 
                             <div className="thirdinputgrpfrthsc">
 
-                            <input type="range" name="firstinputgrp" className='slider' id="firstinputgrp" />
+                                <input type="range" name="firstinputgrp" className='slider' id="firstinputgrp" />
 
                             </div>
 
@@ -200,7 +200,18 @@ function home() {
 
 
                     </div>
-                    <div className="frthscrght"></div>
+                    <div className="frthscrght">
+
+                        <div className="div">
+                            <p className='frthscrghtp'>Nağd pul krediti üçün </p>
+                            <p className='frthscrghtpd'> aylıq ödəniş</p>
+                        </div>
+
+                        <h1 className='pink frthscrghth'>9020.91 ₼</h1>
+
+                        <button className='order'>Sifariş et</button>
+
+                    </div>
 
                 </section>
 

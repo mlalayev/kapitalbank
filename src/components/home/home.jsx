@@ -155,12 +155,56 @@ function home() {
 
                 <section className="fourth">
 
-        <div className="frthsclft"></div>
-        <div className="frthscrght"></div>
+                    <div className="frthsclft">
+
+                        <h1 className='frthsch'>Kalkulyator</h1>
+
+                        <div className="frthscbtns">
+
+                            <button className='frthbtnstyle btnone'>Kredit</button>
+                            <button className='frthbtnstyle btntwo'>Birbank kartı</button>
+                            <button className='frthbtnstyle btnthree'>Depozit</button>
+
+                        </div>
+
+                        <p className='frthscpone'>Gündəlik tələbat krediti</p>
+                        <p className='frthscptwo'>Siz müştərilərimizə asanlıqla əldə edə biləcəyiniz nağd kredit təklif edirik.</p>
+                        <p className='frthscpthree'>% dərəcəsi rəsmiləşmə zamanı müəyyən olunacaq</p>
+
+
+                        <div className="inputgroup">
+
+
+                            <div className="firstinputgrpfrthsc">
+
+                                <input type="range" name="firstinputgrp" className='slider' id="firstinputgrp" />
+
+                            </div>
+
+
+                            <div className="secondinputgrpfrthsc">
+
+                            <input type="range" name="firstinputgrp" className='slider' id="firstinputgrp" />
+
+                            </div>
+
+
+                            <div className="thirdinputgrpfrthsc">
+
+                            <input type="range" name="firstinputgrp" className='slider' id="firstinputgrp" />
+
+                            </div>
+
+
+                        </div>
+
+
+                    </div>
+                    <div className="frthscrght"></div>
 
                 </section>
 
-            </div> 
+            </div>
 
         </>
     )

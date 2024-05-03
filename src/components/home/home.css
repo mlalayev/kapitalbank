@@ -14,6 +14,7 @@
     margin: auto;
 }
 
+
 :root {
     --black: rgb(0, 0, 0);
     --red: rgb(182, 29, 41);
@@ -301,11 +302,108 @@
     flex-direction: column;
 }
 
-.talabat{
+.talabat {
     transition: 0.5s;
     color: var(--white);
 }
 
-.talabat:hover{
+.talabat:hover {
     background-color: var(--hover);
+}
+
+.fourth {
+    /* border: 1px solid red; */
+    height: 800px;
+}
+
+.firstinputgrpfrthsc {
+    width: 680px;
+    height: 64px;
+    position: relative;
+    border: 1px solid black;
+    margin-bottom: 20px;
+}
+
+.secondinputgrpfrthsc {
+    margin-bottom: 50px;
+    width: 680px;
+    height: 64px;
+    position: relative;
+    border: 1px solid black;
+}
+
+.thirdinputgrpfrthsc {
+    /* margin-bottom: 20px; */
+    width: 680px;
+    height: 64px;
+    position: relative;
+    border: 1px solid black;
+}
+
+input[type="range"] {
+    bottom: -2px;
+    height: 4px;
+    width: 680px;
+    position: absolute;
+    color: aliceblue;
+    background: var(--pink);
+    -webkit-appearance: none;
+}
+
+.slider::-webkit-slider-thumb {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    appearance: none;
+    border-radius: 50%;
+    background: var(--pink);
+    -webkit-appearance: none;
+    border: 4px solid var(--white);
+    box-shadow: 1px 1px 5px black;
+}
+
+/* .slider::-moz-range-thumb {
+    width: 25px;
+    height: 25px;
+    background: #04AA6D;
+    cursor: pointer;
+} */
+
+.frthsclft{
+    margin-left: 170px;
+    margin-top: 50px;
+}
+
+.btnone{
+    width: 91px !important;
+    color: var(--white) !important;
+    background-color: var(--pink) !important;
+}
+
+.btntwo{
+    width: 137px;
+}
+
+.btnthree{
+    width: 101px;
+}
+
+.frthbtnstyle{
+    height: 34px;
+    border: none;
+    margin-right: 10px;
+    border-radius: 37px;
+    transition: 0.4s;
+    color: var(--black);
+    background-color: var(--gray);
+}
+
+.frthbtnstyle:hover{
+    color: var(--white);
+    background-color: var(--pink);
+}
+
+.frthscptwo{
+    margin-top: 20px ;
+    margin-bottom: 20px ;
 }

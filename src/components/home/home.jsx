@@ -8,7 +8,8 @@ import marketicon from '../../assets/micro_business.svg'
 import megafon from '../../assets/megafon.svg'
 import birbankcard from '../../assets/birbank-cashback-home.png'
 import dailyloan from '../../assets/daily-loan3.png'
-
+import cashPayment from '../../assets/cashPayment.webp'
+import cashPpayment from '../../assets/cashPpayment.webp'
 
 
 function home() {
@@ -177,7 +178,7 @@ function home() {
 
                             <div className="firstinputgrpfrthsc">
 
-                            <div className="inputvaluegroup">
+                                <div className="inputvaluegroup">
                                     <p className='nptvlgrpup'>Məbləğ</p>
                                     <p className='nptvlgrplw'>300</p>
                                 </div>
@@ -247,6 +248,23 @@ function home() {
                         <h1 className='pink frthscrghth'>9020.91 ₼</h1>
 
                         <button className='order'>Sifariş et</button>
+
+                    </div>
+
+                </section>
+
+
+                <section className="fifth">
+
+                    <div className="fifthleft">
+
+                   <img src={cashPayment} />
+
+                    </div>
+
+                    <div className="fifthright">
+
+                <img src={cashPpayment} />
 
                     </div>
 

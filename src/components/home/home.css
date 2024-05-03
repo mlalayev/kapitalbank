@@ -214,12 +214,17 @@
     color: var(--pink);
 }
 
+.order:hover {
+    background-color: var(--hover);
+}
+
 .order {
     width: 280px;
     height: 55px;
     border: none;
-    font-size: 22px;
     cursor: pointer;
+    font-size: 22px;
+    transition: 0.4s;
     border-radius: 8px;
     color: var(--white);
     background-color: var(--pink);
@@ -316,20 +321,32 @@
     height: 800px;
 }
 
+.inputgroup div{
+    
+}
+
+.inputgroup{
+    gap: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
 .firstinputgrpfrthsc {
     width: 680px;
     height: 64px;
     position: relative;
-    border: 1px solid black;
-    margin-bottom: 20px;
+    border-radius: 8px;
+    border: 1px solid rgba(0, 0, 0, 0.17);
+    /* margin-bottom: 20px; */
 }
 
 .secondinputgrpfrthsc {
-    margin-bottom: 50px;
+    /* margin-bottom: 50px; */
     width: 680px;
     height: 64px;
     position: relative;
-    border: 1px solid black;
+    border-radius: 8px;
+    border: 1px solid rgba(0, 0, 0, 0.17);
 }
 
 .thirdinputgrpfrthsc {
@@ -337,7 +354,8 @@
     width: 680px;
     height: 64px;
     position: relative;
-    border: 1px solid black;
+    border-radius: 8px;
+    border: 1px solid rgba(0, 0, 0, 0.17);
 }
 
 input[type="range"] {
@@ -369,41 +387,60 @@ input[type="range"] {
     cursor: pointer;
 } */
 
-.frthsclft{
-    margin-left: 170px;
-    margin-top: 50px;
+.frthsclft {
+    margin-left: 167px;
+    margin-top: 45px;
 }
 
-.btnone{
+.btnone {
     width: 91px !important;
     color: var(--white) !important;
     background-color: var(--pink) !important;
 }
 
-.btntwo{
+.btntwo {
     width: 137px;
 }
 
-.btnthree{
+.btnthree {
     width: 101px;
 }
 
-.frthbtnstyle{
+.frthbtnstyle {
     height: 34px;
     border: none;
-    margin-right: 10px;
-    border-radius: 37px;
+    font-size: 14px;
     transition: 0.4s;
+    text-align: center;
+    margin-right: 13px;
+    margin-bottom: 32px;
+    border-radius: 37px;
     color: var(--black);
     background-color: var(--gray);
 }
 
-.frthbtnstyle:hover{
+.frthbtnstyle:hover {
     color: var(--white);
     background-color: var(--pink);
 }
 
-.frthscptwo{
-    margin-top: 20px ;
-    margin-bottom: 20px ;
+.frthscptwo {
+    margin-top: 20px;
+    margin-bottom: 24px;
+    font-size: 17px;
+}
+
+.frthscpone {
+    font-size: 24px;
+}
+
+.frthsch {
+    font-size: 36px;
+    font-weight: 200;
+    margin-bottom: 15px;
+}
+
+.frthscpthree{
+    font-weight: 100;
+    margin-bottom: 40px;
 }

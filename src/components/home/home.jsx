@@ -153,7 +153,14 @@ function home() {
 
                 </section>
 
-            </div>
+                <section className="fourth">
+
+        <div className="frthsclft"></div>
+        <div className="frthscrght"></div>
+
+                </section>
+
+            </div> 
 
         </>
     )

@@ -66,7 +66,7 @@ function header() {
                     <ul className='mainul'>
                         <li className='anim'><span className='animspan'>KARTLAR</span>
 
-                            <div className="dropdown">
+                            <div className="dropdownn">
 
                                 <div className="dropdowncontent">
                                     <div className="dropdownleft">
@@ -109,7 +109,7 @@ function header() {
 
                         <li className='anim'><span className='animspan'>KREDİTLƏR</span>
 
-                            <div className="dropdown">
+                            <div className="dropdownn">
                                 <div className="dropdowncontent">
                                     <div className="dropdownleft">
                                         <div className="ddll">
@@ -153,7 +153,7 @@ function header() {
                         
                         <li className='anim'><span className='animspan'>DEPOZİTLƏR</span>
 
-                            <div className="dropdown">
+                            <div className="dropdownn">
                                 <div className="dropdowncontent">
                                     <div className="dropdownleft">
                                         <div className="ddll">
@@ -195,7 +195,7 @@ function header() {
 
                         <li className='anim'><span className='animspan'>PUL KÖÇÜRMƏLƏRİ</span>
 
-                            <div className="dropdown">
+                            <div className="dropdownn">
                                 <div className="dropdowncontent">
                                     <div className="dropdownleft">
                                         <div className="ddll">
@@ -237,7 +237,7 @@ function header() {
 
                         <li className='anim'><span className='animspan'>ONLAYN XİDMƏTLƏR</span>
 
-                            <div className="dropdown">
+                            <div className="dropdownn">
                                 <div className="dropdowncontent">
                                     <div className="dropdownleft">
                                         <div className="ddll">

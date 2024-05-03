@@ -340,10 +340,10 @@ input[type="range"] {
     height: 2px;
     width: 670px;
     bottom: -2px;
+    appearance: none;
     position: absolute;
     color: aliceblue;
     background: var(--pink);
-    -webkit-appearance: none;
 }
 
 .slider::-webkit-slider-thumb {

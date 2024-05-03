@@ -12,13 +12,16 @@
     --pink: rgb(244, 83, 105);
     --gray: rgb(232, 236, 241);
     --white: rgb(255, 255, 255);
+    --black-second: rgb(46, 49, 49);
     --light-gray: rgb(244, 244, 244);
+    --light-gray-second: rgb(249, 250, 251);
 }
 
-header{
+header {
     width: 100%;
 }
-.container{
+
+.container {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -65,7 +68,7 @@ header{
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.hdlwprtbtn{
+.hdlwprtbtn {
     width: 100px;
     height: 32px;
     border: none;
@@ -83,17 +86,17 @@ header{
     background-color: var(--pink);
 }
 
-.hdlwprtbtn:hover{
+.hdlwprtbtn:hover {
     background-color: var(--hover);
 }
 
-.bbiconspan{
+.bbiconspan {
     font-family: Arial, Helvetica, sans-serif;
     margin-left: 12px;
     font-size: 16px;
 }
 
-.birbankicon{
+.birbankicon {
     left: 3px;
     width: 32px;
     height: 52px;

@@ -23,6 +23,7 @@
     --gray: rgb(232, 236, 241);
     --white: rgb(255, 255, 255);
     --black-second: rgb(46, 49, 49);
+    --black-gray: rgb(158, 158, 158);
     --light-gray: rgb(244, 244, 244);
     --light-gray-second: rgb(249, 250, 251);
 }
@@ -317,7 +318,7 @@
 }
 
 .fourth {
-    height: 800px;
+    height: 700px;
     display: flex;
 }
 
@@ -421,8 +422,8 @@ input[type="range"] {
     height: 331px;
     margin-top: 157px;
     margin-left: 125px;
-    border: 1px solid rgba(0, 0, 0, 0.17);
     border-radius: 8px;
+    border: 1px solid rgba(0, 0, 0, 0.17);
 }
 
 .frthscrghth {
@@ -435,7 +436,7 @@ input[type="range"] {
     margin-top: 40px;
 }
 
-.frthscrghtpd{
+.frthscrghtpd {
     font-size: 24px;
     margin-top: 10px;
 }
@@ -443,12 +444,58 @@ input[type="range"] {
 .frthscrght {
     display: flex;
     text-align: center;
+    align-items: center;
     flex-direction: column;
     justify-content: space-between;
-    align-items: center;
 }
 
-.frthscrght button{
-    margin-bottom: 20px;
+.frthscrght button {
     width: 340px;
+    margin-bottom: 20px;
+}
+
+.firstinputgrpfrthsc .inputfirstfield {
+    width: 100%;
+    border: none;
+    height: 20px;
+    bottom: -35px;
+    display: flex;
+    position: absolute;
+    justify-content: space-between;
+}
+
+.frstnptgrpp {
+    font-size: 12px;
+    color: var(--black-gray);
+}
+
+.secondinputgrpfrthsc .inputfirstfield {
+    width: 100%;
+    border: none;
+    height: 20px;
+    bottom: -35px;
+    display: flex;
+    position: absolute;
+    justify-content: space-between;
+}
+
+.thirdinputgrpfrthsc .inputfirstfield {
+    width: 100%;
+    border: none;
+    height: 20px;
+    bottom: -35px;
+    display: flex;
+    position: absolute;
+    justify-content: space-between;
+}
+
+.inputvaluegroup {
+    padding-top: 10px;
+    padding-left: 20px;
+}
+
+.nptvlgrpup {
+    font-size: 10px;
+    margin-bottom: 5px;
+    color: var(--black-gray);
 }

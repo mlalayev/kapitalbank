@@ -177,21 +177,57 @@ function home() {
 
                             <div className="firstinputgrpfrthsc">
 
+                            <div className="inputvaluegroup">
+                                    <p className='nptvlgrpup'>Məbləğ</p>
+                                    <p className='nptvlgrplw'>300</p>
+                                </div>
+
                                 <input type="range" name="firstinputgrp" className='slider' id="firstinputgrp" />
+
+                                <div className='inputfirstfield'>
+
+                                    <p className='frstnptgrpp'>300</p>
+                                    <p className='frstnptgrpp'>50 000</p>
+
+                                </div>
 
                             </div>
 
 
                             <div className="secondinputgrpfrthsc">
 
+                                <div className="inputvaluegroup">
+                                    <p className='nptvlgrpup'>Faiz</p>
+                                    <p className='nptvlgrplw'>15</p>
+                                </div>
+
                                 <input type="range" name="firstinputgrp" className='slider' id="firstinputgrp" />
+
+                                <div className='inputfirstfield'>
+
+                                    <p className='frstnptgrpp'>10.9 %</p>
+                                    <p className='frstnptgrpp'>20 %</p>
+
+                                </div>
 
                             </div>
 
 
                             <div className="thirdinputgrpfrthsc">
 
+                                <div className="inputvaluegroup">
+                                    <p className='nptvlgrpup'>Müddət</p>
+                                    <p className='nptvlgrplw'>3</p>
+                                </div>
+
                                 <input type="range" name="firstinputgrp" className='slider' id="firstinputgrp" />
+
+                                <div className='inputfirstfield'>
+
+                                    <p className='frstnptgrpp'>3 ay</p>
+                                    <p className='frstnptgrpp'>59 ay</p>
+
+                                </div>
 
                             </div>
 
@@ -200,6 +236,7 @@ function home() {
 
 
                     </div>
+
                     <div className="frthscrght">
 
                         <div className="div">

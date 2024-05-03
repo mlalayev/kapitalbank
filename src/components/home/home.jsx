@@ -10,6 +10,7 @@ import birbankcard from '../../assets/birbank-cashback-home.png'
 import dailyloan from '../../assets/daily-loan3.png'
 import cashPayment from '../../assets/cashPayment.webp'
 import cashPpayment from '../../assets/cashPpayment.webp'
+import { FaArrowRight } from "react-icons/fa";
 
 
 function home() {
@@ -258,13 +259,23 @@ function home() {
 
                     <div className="fifthleft">
 
-                   <img src={cashPayment} />
+                        <div>
+
+                            <h1 className='ffthlfth'>Onlayn kredit</h1>
+                            <p className='ffthlftp'>Banka gəlmədən və növbələrdə vaxt itirmədən kredit əldə et.</p>
+
+
+                            <button className='ffthbtn'>Sifariş et <FaArrowRight /> </button>
+                        
+                        </div>
+
+                        <img src={cashPayment} className='cashPayment' />
 
                     </div>
 
                     <div className="fifthright">
 
-                <img src={cashPpayment} />
+                        <img src={cashPpayment} className='cashPpayment' />
 
                     </div>
 

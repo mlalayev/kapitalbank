@@ -317,51 +317,29 @@
 }
 
 .fourth {
-    /* border: 1px solid red; */
     height: 800px;
+    display: flex;
 }
 
 .inputgroup div{
-    
+    width: 680px;
+    height: 64px;
+    position: relative;
+    border-radius: 8px;
+    border: 1px solid rgba(0, 0, 0, 0.17);   
 }
 
 .inputgroup{
-    gap: 50px;
+    gap: 60px;
     display: flex;
     flex-direction: column;
 }
 
-.firstinputgrpfrthsc {
-    width: 680px;
-    height: 64px;
-    position: relative;
-    border-radius: 8px;
-    border: 1px solid rgba(0, 0, 0, 0.17);
-    /* margin-bottom: 20px; */
-}
-
-.secondinputgrpfrthsc {
-    /* margin-bottom: 50px; */
-    width: 680px;
-    height: 64px;
-    position: relative;
-    border-radius: 8px;
-    border: 1px solid rgba(0, 0, 0, 0.17);
-}
-
-.thirdinputgrpfrthsc {
-    /* margin-bottom: 20px; */
-    width: 680px;
-    height: 64px;
-    position: relative;
-    border-radius: 8px;
-    border: 1px solid rgba(0, 0, 0, 0.17);
-}
-
 input[type="range"] {
+    left: 3px;
+    height: 2px;
+    width: 670px;
     bottom: -2px;
-    height: 4px;
-    width: 680px;
     position: absolute;
     color: aliceblue;
     background: var(--pink);
@@ -377,19 +355,12 @@ input[type="range"] {
     background: var(--pink);
     -webkit-appearance: none;
     border: 4px solid var(--white);
-    box-shadow: 1px 1px 5px black;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.462);
 }
 
-/* .slider::-moz-range-thumb {
-    width: 25px;
-    height: 25px;
-    background: #04AA6D;
-    cursor: pointer;
-} */
-
 .frthsclft {
-    margin-left: 167px;
     margin-top: 45px;
+    margin-left: 167px;
 }
 
 .btnone {
@@ -425,9 +396,9 @@ input[type="range"] {
 }
 
 .frthscptwo {
+    font-size: 17px;
     margin-top: 20px;
     margin-bottom: 24px;
-    font-size: 17px;
 }
 
 .frthscpone {
@@ -443,4 +414,13 @@ input[type="range"] {
 .frthscpthree{
     font-weight: 100;
     margin-bottom: 40px;
+}
+
+.frthscrght{
+    width: 381px;
+    height: 331px;
+    margin-top: 157px;
+    margin-left: 125px;
+    border: 1px solid rgba(0, 0, 0, 0.17);
+    border-radius: 8px;
 }

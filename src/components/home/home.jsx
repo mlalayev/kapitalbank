@@ -254,7 +254,6 @@ function home() {
 
                 </section>
 
-
                 <section className="fifth">
 
                     <div className="fifthleft">
@@ -266,7 +265,7 @@ function home() {
 
 
                             <button className='ffthbtn'>Sifariş et <FaArrowRight /> </button>
-                        
+
                         </div>
 
                         <img src={cashPayment} className='cashPayment' />
@@ -275,9 +274,21 @@ function home() {
 
                     <div className="fifthright">
 
+                        <div>
+                            <h1 className='ffthscrghth'>İnsan resursları</h1>
+                            <p className='ffthscrghtp'>Kapital Bankın peşəkarlar komandasına qoşulmaq istəyirsinizsə, Sizi müvafiq vakansiyaya müraciət etməyə dəvət edirik. Biz sizə dinamik mühitdə maraqlı və perspektivli iş təklif edirik.</p>
+
+                            <button className='ffthbtn ffthbtnrght'>Daha ətraflı<FaArrowRight /></button>
+
+                        </div>
+
                         <img src={cashPpayment} className='cashPpayment' />
 
                     </div>
+
+                </section>
+
+                <section className="sixth">
 
                 </section>
 

@@ -522,6 +522,7 @@ input[type="range"] {
 
 .fifthright {
     width: 49.5%;
+    position: relative;
     border-top-left-radius: 8px;
     background-color: var(--hover);
     border-bottom-left-radius: 8px;
@@ -555,4 +556,43 @@ input[type="range"] {
     position: absolute;
     align-items: center;
     background-color: transparent;
+}
+
+.ffthbtn:hover{
+    color: var(--red);
+}
+
+.cashPpayment{
+    bottom: 0;
+    right: 25%;
+    width: 200px;
+    height: 225px;
+    position: absolute;
+}
+
+.sixth{
+    height: 500px;
+}
+
+.ffthscrghth{
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.ffthscrghtp{
+    font-size: 13px;
+    line-height: 20px;   
+}
+
+.fifthright div {
+    width: 250px;
+    height: 210px;
+    margin-top: 50px;
+    margin-left: 87px;
+    position: relative;
+    color: var(--white);
+}
+
+.ffthbtnrght{
+    color: var(--white) !important;
 }

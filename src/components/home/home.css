@@ -550,7 +550,7 @@ input[type="range"] {
     gap: 10px;
     bottom: 0;
     border: none;
-    display: flex;  
+    display: flex;
     font-size: 14px;
     color: var(--pink);
     position: absolute;
@@ -558,11 +558,11 @@ input[type="range"] {
     background-color: transparent;
 }
 
-.ffthbtn:hover{
+.ffthbtn:hover {
     color: var(--red);
 }
 
-.cashPpayment{
+.cashPpayment {
     bottom: 0;
     right: 25%;
     width: 200px;
@@ -570,18 +570,18 @@ input[type="range"] {
     position: absolute;
 }
 
-.sixth{
+.sixth {
     height: 500px;
 }
 
-.ffthscrghth{
+.ffthscrghth {
     font-size: 32px;
     margin-bottom: 10px;
 }
 
-.ffthscrghtp{
+.ffthscrghtp {
     font-size: 13px;
-    line-height: 20px;   
+    line-height: 20px;
 }
 
 .fifthright div {
@@ -593,6 +593,93 @@ input[type="range"] {
     color: var(--white);
 }
 
-.ffthbtnrght{
+.ffthbtnrght {
     color: var(--white) !important;
+}
+
+.sxthscdv {
+    width: 100%;
+    height: 300px;
+    margin-top: 40px;
+    padding-top: 50px;
+    background-color: var(--gray);
+}
+
+.sxthscdvup {
+    width: 78%;
+    height: 55px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 2px solid var(--white);
+}
+
+.sxthscdvlw {
+    gap: 5px;
+    width: 78%;
+    margin: auto;
+    display: flex;
+    height: calc(100% - 57px);
+    /* border: 1px solid black; */
+}
+
+.scthscdvuph {
+    font-size: 32px;
+}
+
+.sxthscbtn {
+    position: relative !important;
+}
+
+.sxthscdvlw div{
+}
+
+.sxthscdvlwlftlft{
+    gap: 10px;
+    width: 52px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.sxthscdvlwlft{
+    width: 30%;
+    display: flex;
+    color: var(--black-second);
+}
+
+.sxthscdvlwmid{
+    width: 30%;
+    display: flex;
+    color: var(--black-second);
+}
+
+.sxthscdvlwrght{
+    width: 30%;
+    display: flex;
+    color: var(--black-second);
+}
+
+.sxthscdvlwlftrght{
+    width: 303px;
+    font-size: 16px;
+    padding-top: 40px;
+    line-height: 24px;
+    padding-left: 36px;
+    padding-right: 60px;
+}
+
+.divcircle{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    font-size: 23px;
+    margin-top: -40px;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid var(--pink);
 }

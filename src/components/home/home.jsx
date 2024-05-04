@@ -289,7 +289,57 @@ function home() {
                 </section>
 
                 <section className="sixth">
+                    <div className="sxthscdv">
 
+                        <div className="sxthscdvup">
+                            <h1 className='scthscdvuph'>Xəbərlər</h1>
+                            <button className='ffthbtn sxthscbtn'>Bütün xəbərlər <FaArrowRight /></button>
+                        </div>
+
+                        <div className="sxthscdvlw">
+
+                            <div className="sxthscdvlwlft">
+                                <div className="sxthscdvlwlftlft">
+                                    <div className="divcircle">
+                                        03
+                                    </div>
+                                    <p>May</p>
+                                </div>
+
+                                <div className="sxthscdvlwlftrght">
+                                    <p> Kapital Bank-ın sponsorluğu ilə ölkəmiz “Türk Dövlətləri İqtisadi Forumu 2024” layihəsinə ev sahibliyi etdi </p>
+                                </div>
+                            </div>
+
+                            <div className="sxthscdvlwmid">
+                                <div className="sxthscdvlwlftlft">
+                                    <div className="divcircle">
+                                        03
+                                    </div>
+                                    <p>May</p>
+                                </div>
+
+                                <div className="sxthscdvlwlftrght">
+                                    <p> Kapital Bank-ın sponsorluğu ilə ölkəmiz “Türk Dövlətləri İqtisadi Forumu 2024” layihəsinə ev sahibliyi etdi </p>
+                                </div>
+                            </div>
+
+                            <div className="sxthscdvlwrght">
+                                <div className="sxthscdvlwlftlft">
+                                    <div className="divcircle">
+                                        03
+                                    </div>
+                                    <p>May</p>
+                                </div>
+
+                                <div className="sxthscdvlwlftrght">
+                                    <p> Kapital Bank-ın sponsorluğu ilə ölkəmiz “Türk Dövlətləri İqtisadi Forumu 2024” layihəsinə ev sahibliyi etdi </p>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
                 </section>
 
             </div>

@@ -571,7 +571,7 @@ input[type="range"] {
 }
 
 .sixth {
-    height: 500px;
+    height: 370px;
 }
 
 .ffthscrghth {
@@ -632,10 +632,9 @@ input[type="range"] {
     position: relative !important;
 }
 
-.sxthscdvlw div{
-}
+.sxthscdvlw div {}
 
-.sxthscdvlwlftlft{
+.sxthscdvlwlftlft {
     gap: 10px;
     width: 52px;
     height: 100%;
@@ -645,25 +644,28 @@ input[type="range"] {
     justify-content: center;
 }
 
-.sxthscdvlwlft{
+.sxthscdvlwlft {
     width: 30%;
     display: flex;
+    cursor: pointer;
     color: var(--black-second);
 }
 
-.sxthscdvlwmid{
+.sxthscdvlwmid {
     width: 30%;
     display: flex;
+    cursor: pointer;
     color: var(--black-second);
 }
 
-.sxthscdvlwrght{
+.sxthscdvlwrght {
     width: 30%;
     display: flex;
+    cursor: pointer;
     color: var(--black-second);
 }
 
-.sxthscdvlwlftrght{
+.sxthscdvlwlftrght {
     width: 303px;
     font-size: 16px;
     padding-top: 40px;
@@ -672,7 +674,7 @@ input[type="range"] {
     padding-right: 60px;
 }
 
-.divcircle{
+.divcircle {
     width: 50px;
     height: 50px;
     display: flex;
@@ -682,4 +684,31 @@ input[type="range"] {
     align-items: center;
     justify-content: center;
     border: 1px solid var(--pink);
+}
+
+.sxthscdvlwlft:hover .divcircle {
+    color: var(--white);
+    background-color: var(--pink);
+}
+
+.sxthscdvlwmid:hover .divcircle {
+    color: var(--white);
+    background-color: var(--pink);
+}
+
+.sxthscdvlwrght:hover .divcircle {
+    color: var(--white);
+    background-color: var(--pink);
+}
+
+.sxthscdvlwmid:hover .sxthscdvlwlftrght p {
+    color: var(--pink);
+}
+
+.sxthscdvlwlft:hover .sxthscdvlwlftrght p {
+    color: var(--pink);
+}
+
+.sxthscdvlwrght:hover .sxthscdvlwlftrght p {
+    color: var(--pink);
 }

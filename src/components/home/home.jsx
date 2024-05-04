@@ -376,7 +376,14 @@ function home() {
                     </div>
 
                     <div className="svnthscrght">
+                        <div className='innersvnthscrght'>
 
+                            <div className="btnhldrsvnth">
+                                <button className='svnthlft'>Mən satıram</button>
+                                <button className='svnthrght'>Mən alıram</button>
+                            </div>
+
+                        </div>
                     </div>
                 </section>
 

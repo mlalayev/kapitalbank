@@ -27,10 +27,10 @@
     --black-gray: rgb(158, 158, 158);
     --light-gray: rgb(244, 244, 244);
     --input-color: rgba(0, 0, 0, 0.17);
-    --box-shadow: rgba(128, 128, 128, 0.105);
     --light-gray-second: rgb(249, 250, 251);
-    --box-shadow-two: rgba(128, 128, 128, 0.481);
+    --box-shadow: rgba(128, 128, 128, 0.105);
     --slider-box-shadow: rgba(0, 0, 0, 0.462);
+    --box-shadow-two: rgba(128, 128, 128, 0.481);
 }
 
 .first {
@@ -332,7 +332,7 @@
     height: 64px;
     position: relative;
     border-radius: 8px;
-    border: 1px solid var(--input-color);
+    border: 1px solid var(--gray);
 }
 
 .inputgroup {
@@ -626,7 +626,6 @@ input[type="range"] {
     margin: auto;
     display: flex;
     height: calc(100% - 57px);
-    /* border: 1px solid black; */
 }
 
 .scthscdvuph {
@@ -721,9 +720,8 @@ button {
 }
 
 .svnthscrght {
-    width: 100%;
+    width: 40%;
     height: 383px;
-    border: 1px solid black;
 }
 
 .svnthscbtn {
@@ -746,13 +744,15 @@ table {
     border-collapse: collapse;
 }
 
-.tr .td, #td{
+.tr .td,
+#td {
     border-bottom: 0px;
 }
 
-.seventh{
+.seventh {
     display: flex;
 }
+
 
 tr {
     height: 60px;
@@ -777,4 +777,46 @@ tr {
 
 .black {
     color: var(--black);
+}
+
+.svnthscrght .innersvnthscrght {
+    width: 495px;
+    height: 305px;
+    margin-top: 5px;
+    margin-left: 10px;
+    padding-top: 30px;
+    border-radius: 8px;
+    justify-content: center;
+    background-color: var(--gray);
+}
+
+.btnhldrsvnth{
+    width: 320px;
+    height: 52px;
+    display: flex;
+    margin: auto;
+    border-radius: 8px;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--white);
+}
+
+.btnhldrsvnth button{
+    width: 149px;
+    height: 42px;
+    border: none;
+    border-radius: 8px;
+    background-color: var(--gray);
+    transition: 0.4s;
+}
+
+.svnthlft{
+    margin-right: 5px;
+    background-color: var(--pink) !important;
+    color: var(--white);
+}
+
+.btnhldrsvnth button:hover{
+    background-color: var(--pink);
+    color: var(--white);
 }

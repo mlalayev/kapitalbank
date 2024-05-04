@@ -22,10 +22,15 @@
     --pink: rgb(244, 83, 105);
     --gray: rgb(232, 236, 241);
     --white: rgb(255, 255, 255);
+    --table: rgba(0, 0, 0, 0.686);
     --black-second: rgb(46, 49, 49);
     --black-gray: rgb(158, 158, 158);
     --light-gray: rgb(244, 244, 244);
+    --input-color: rgba(0, 0, 0, 0.17);
+    --box-shadow: rgba(128, 128, 128, 0.105);
     --light-gray-second: rgb(249, 250, 251);
+    --box-shadow-two: rgba(128, 128, 128, 0.481);
+    --slider-box-shadow: rgba(0, 0, 0, 0.462);
 }
 
 .first {
@@ -90,7 +95,7 @@
     align-items: center;
     justify-content: space-around;
     background-color: var(--light-gray-second);
-    box-shadow: 1px 1px 5px 1px rgba(128, 128, 128, 0.105);
+    box-shadow: 1px 1px 5px 1px var(--box-shadow);
 }
 
 .firstsclwpart div {
@@ -122,7 +127,7 @@
     align-items: center;
     flex-direction: column;
     justify-content: center;
-    box-shadow: 1px 1px 5px 1px rgba(128, 128, 128, 0.481);
+    box-shadow: 1px 1px 5px 1px var(--box-shadow-two);
 }
 
 .birbankicontwo {
@@ -327,7 +332,7 @@
     height: 64px;
     position: relative;
     border-radius: 8px;
-    border: 1px solid rgba(0, 0, 0, 0.17);
+    border: 1px solid var(--input-color);
 }
 
 .inputgroup {
@@ -356,7 +361,7 @@ input[type="range"] {
     background: var(--pink);
     -webkit-appearance: none;
     border: 4px solid var(--white);
-    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.462);
+    box-shadow: 1px 1px 5px var(--slider-box-shadow);
 }
 
 .frthsclft {
@@ -423,7 +428,7 @@ input[type="range"] {
     margin-top: 157px;
     margin-left: 125px;
     border-radius: 8px;
-    border: 1px solid rgba(0, 0, 0, 0.17);
+    border: 1px solid var(--gray);
 }
 
 .frthscrghth {
@@ -632,8 +637,6 @@ input[type="range"] {
     position: relative !important;
 }
 
-.sxthscdvlw div {}
-
 .sxthscdvlwlftlft {
     gap: 10px;
     width: 52px;
@@ -711,4 +714,67 @@ input[type="range"] {
 
 .sxthscdvlwrght:hover .sxthscdvlwlftrght p {
     color: var(--pink);
+}
+
+button {
+    cursor: pointer;
+}
+
+.svnthscrght {
+    width: 100%;
+    height: 383px;
+    border: 1px solid black;
+}
+
+.svnthscbtn {
+    position: relative !important;
+    margin-top: 23px;
+    margin-left: 5px;
+}
+
+tr td {
+    border-bottom: 1px solid var(--gray);
+}
+
+table {
+    width: 100%;
+    font-size: 17px;
+    margin-top: 38px;
+    font-weight: 100;
+    margin-left: 10px;
+    color: var(--table);
+    border-collapse: collapse;
+}
+
+.tr .td, #td{
+    border-bottom: 0px;
+}
+
+.seventh{
+    display: flex;
+}
+
+tr {
+    height: 60px;
+}
+
+.svnthsclft {
+    width: 45%;
+    margin-top: 34px;
+    margin-left: 164px;
+}
+
+.svnthsclftp {
+    font-size: 14px;
+    color: var(--table);
+}
+
+.svnthsclfth {
+    cursor: default;
+    font-size: 32px;
+    margin-bottom: 7px;
+}
+
+.black {
+    color: var(--black);
 }

@@ -342,6 +342,44 @@ function home() {
                     </div>
                 </section>
 
+                <section className="seventh">
+                    <div className="svnthsclft">
+
+                        <h1 className='svnthsclfth'>Valyuta kalkulyatoru</h1>
+                        <p className='svnthsclftp'>Bəzi filiallar üzrə fərqli məzənnələr təyin edilə bilər
+                        </p>
+
+                        <table>
+                            <thead>
+                                <tr>
+                                    <td>Valyuta</td>
+                                    <td>Alış</td>
+                                    <td>Satış</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>USD</td>
+                                    <td>1.697</td>
+                                    <td className='black'><b>1.702</b></td>
+                                </tr>
+                                <tr className='tr'>
+                                    <td className='td'>EUR</td>
+                                    <td className='td'>1.8062</td>
+                                    <td className='black' id='td'><b>1.8517</b></td>
+                                </tr>
+                            </tbody>
+                        </table>
+
+                        <button className='ffthbtn svnthscbtn'>Daha ətraflı<FaArrowRight /></button>
+
+                    </div>
+
+                    <div className="svnthscrght">
+
+                    </div>
+                </section>
+
             </div>
 
         </>

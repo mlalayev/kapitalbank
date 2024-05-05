@@ -14,7 +14,6 @@
     justify-content: center;
 }
 
-
 :root {
     --black: rgb(0, 0, 0);
     --red: rgb(182, 29, 41);
@@ -346,17 +345,17 @@ input[type="range"] {
     height: 2px;
     width: 670px;
     bottom: -2px;
-    appearance: none;
+    /* appearance: none; */
     position: absolute;
-    color: aliceblue;
     background: var(--pink);
+    accent-color: var(--pink);
 }
 
 .slider::-webkit-slider-thumb {
     width: 20px;
     height: 20px;
     cursor: pointer;
-    appearance: none;
+    /* appearance: none; */
     border-radius: 50%;
     background: var(--pink);
     -webkit-appearance: none;
